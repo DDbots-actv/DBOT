@@ -7,6 +7,7 @@
       href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
       rel="stylesheet"
     />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="shortcut icon" href="immmm.png" type="image/svg+xml">
     <link rel="stylesheet" href="hstyles.css" />
     <title>DBOTS| Web3</title>
@@ -67,7 +68,18 @@
         </div>
       </div>
     </header>
-
+  <div id="assistive-touch-button" class="assistive-touch-button">
+    <i class="fas fa-bars"></i>
+  </div>
+  <div id="assistive-touch-menu" class="assistive-touch-menu">
+    <div class="menu-item" onclick="goToHome()"><i class="fas fa-home"></i><span>Home</span></div>
+    <div class="menu-item" onclick="goToServices()"><i class="fas fa-cogs"></i><span>Services</span></div>
+    <div class="menu-item" onclick="goToAbout()"><i class="fas fa-info-circle"></i><span>About</span></div>
+    <div class="menu-item" onclick="goToContact()"><i class="fas fa-envelope"></i><span>Contact</span></div>
+    <div class="menu-item" onclick="goToSettings()"><i class="fas fa-wrench"></i><span>Settings</span></div>
+    <div class="menu-item" onclick="goToProfile()"><i class="fas fa-user"></i><span>Profile</span></div>
+  </div>
+    
     <section class="section__container work__container">
       <h2 class="section__header">How It Works?</h2>
       <div class="work__grid">
